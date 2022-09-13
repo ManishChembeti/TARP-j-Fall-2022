@@ -15,3 +15,9 @@ The development of industrial intelligence is supported by the Industrial Intern
 ### EXISTING SYSTEM:
 
 The blockchain system can be broken down into data layer, network layer, consensus layer, etc., according to the study that has already been done. To guarantee the security and privacy of data information, the data layer is utilised. Key technologies used primarily by the data layer include the encryption method, Merkle tree, chain structure, and timestamp. The network layer, which primarily consists of P2P networks, data distribution, and verification procedures, is the structural foundation of decentralised storage. The blockchain distributed network's smooth operation is made possible by the consensus layer. Commonly used consensus algorithms include the PBFT method, Kafka algorithm, Raft algorithm, PoW (Proof of Work), PoS (Proof of Stack), and DPoS (Proof of Stack Delegation).
+
+#### Disadvantages:
+
+
+1. All currently used methods involved gathering and storing data across wired or wireless connections, which were then placed on centralised (single node) servers where the data could be manipulated by hackers if the server was compromised.
+2. There are security threats, such as data manipulation and forgery, and this cannot ensure the security and privacy of shared data.
