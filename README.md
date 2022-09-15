@@ -25,3 +25,10 @@ The blockchain system can be broken down into data layer, network layer, consens
 ### PROPOSED SYSTEM:
 
 This article suggests a blockchain- and Internet of Things-based physical device identification system approach. The OID identifying system is the foundation of the solution. It achieves the global unique identification of physical equipment using the OID encoding method, which is compatible with other identification systems, and prevents the ambiguity of traceable objects in the traceability process. Then, the traceability information is selectively kept inside and outside the blockchain, and the internal and external traceability of the blockchain is built in accordance with the importance of the traceability information of physical equipment and the importance of the amount of data. The internal blockchain traceability solution employs blockchain technology to store critical traceability data on the creation, transfer, usage, and supervision of physical equipment related to OID identification, as well as comprehensive summaries of traceability data. To store detailed production information, logistics information, usage information, and numbers created based on detailed traceability information, the blockchain traceability solution uses the OID identifying information registration mechanism. The list of consumer electronics goods is related to this traceability data. The OID-identified stages of the supply chain correspond to each level. This data is kept on the traceable enterprise's associated identity management server. 
+
+#### Advantages:
+
+1.	The traceability solution suggested in this study prevents the problem of blockchain data explosion and protects the legitimacy of all traceable information.
+
+
+2.	To guarantee the effectiveness of traceability information, the key and authentication mechanism, and the authority management are all included in the system's security design.
