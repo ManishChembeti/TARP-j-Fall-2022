@@ -2,33 +2,4 @@
 
 ## A Block Chain Platform with Equipment ID for Industrial Internet
 
-
-### Abstract
-
 The goal of this project is to develop a blockchain-based and Internet of Things-based strategy for industrial equipment traceability. The primary data that is recorded in the internal traceability solution of the blockchain is the digital summary of the detailed traceability data and the important traceability data of industrial equipment. The detailed industrial equipment traceability information and digital summaries produced by the traceability information are mostly recorded by the traceability solution outside of the blockchain. The suggested traceability mechanism in this study guarantees the accuracy of all traceable data and prevents the issue of blockchain data explosion.
- 
-
-### Introduction
-
-The development of industrial intelligence is supported by the Industrial Internet, a crucial infrastructure that links the entire industrial system, the entire industrial chain, and the entire value chain. A new generation of manufacturing technology and information technology were deeply integrated to create this emergent business and application paradigm. The relationship between factories and consumers has been further increased by the emergence of mobile communication. Wired and wireless networks are typically included in industrial internet. Industrial wired networks are able to guarantee very dependable communication when controlling and watching over physical equipment. However, as Industry 4.0 takes hold, the industrial manufacturing sector tends to advance wisely. The number of machines, sensors, robots, and other pieces of equipment has increased. Industrial wired networks are therefore unable to satisfy the present communication requirements. A new industrial communication technology is called Industrial Wireless Network (IWN). A theoretical and technical foundation is provided by industrial wireless networks for the quick adoption of the Internet of Things in the area of industrial production. This innovation uses wireless communication technology to keep an eye on and manage physical equipment in a setting of industrial production. Industrial wireless networks provide several advantages over conventional wired industrial networks, including low installation and maintenance costs, great scalability, and excellent mobility. IWN is therefore being employed more and more frequently in the sophisticated industrial production environment. At the same time, as cloud computing technology advances, it will be possible to implement cloud-based data sharing and store the shared data in a data centre. However, there are security threats including data tampering and forgery, therefore this cannot ensure the security and privacy of shared data.
-
-### EXISTING SYSTEM:
-
-The blockchain system can be broken down into data layer, network layer, consensus layer, etc., according to the study that has already been done. To guarantee the security and privacy of data information, the data layer is utilised. Key technologies used primarily by the data layer include the encryption method, Merkle tree, chain structure, and timestamp. The network layer, which primarily consists of P2P networks, data distribution, and verification procedures, is the structural foundation of decentralised storage. The blockchain distributed network's smooth operation is made possible by the consensus layer. Commonly used consensus algorithms include the PBFT method, Kafka algorithm, Raft algorithm, PoW (Proof of Work), PoS (Proof of Stack), and DPoS (Proof of Stack Delegation).
-
-#### Disadvantages:
-
-
-1. All currently used methods involved gathering and storing data across wired or wireless connections, which were then placed on centralised (single node) servers where the data could be manipulated by hackers if the server was compromised.
-2. There are security threats, such as data manipulation and forgery, and this cannot ensure the security and privacy of shared data.
-
-### PROPOSED SYSTEM:
-
-This article suggests a blockchain- and Internet of Things-based physical device identification system approach. The OID identifying system is the foundation of the solution. It achieves the global unique identification of physical equipment using the OID encoding method, which is compatible with other identification systems, and prevents the ambiguity of traceable objects in the traceability process. Then, the traceability information is selectively kept inside and outside the blockchain, and the internal and external traceability of the blockchain is built in accordance with the importance of the traceability information of physical equipment and the importance of the amount of data. The internal blockchain traceability solution employs blockchain technology to store critical traceability data on the creation, transfer, usage, and supervision of physical equipment related to OID identification, as well as comprehensive summaries of traceability data. To store detailed production information, logistics information, usage information, and numbers created based on detailed traceability information, the blockchain traceability solution uses the OID identifying information registration mechanism. The list of consumer electronics goods is related to this traceability data. The OID-identified stages of the supply chain correspond to each level. This data is kept on the traceable enterprise's associated identity management server. 
-
-#### Advantages:
-
-1.	The traceability solution suggested in this study prevents the problem of blockchain data explosion and protects the legitimacy of all traceable information.
-
-
-2.	To guarantee the effectiveness of traceability information, the key and authentication mechanism, and the authority management are all included in the system's security design.
