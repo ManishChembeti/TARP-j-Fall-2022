@@ -21,5 +21,7 @@ The feasibility of the project is analyzed in this phase and business proposal i
 Three key considerations involved in the feasibility analysis are	
 
 •	ECONOMICAL FEASIBILITY
+
 •	TECHNICAL FEASIBILITY
+
 •	SOCIAL FEASIBILITY
