@@ -30,3 +30,8 @@ Three key considerations involved in the feasibility analysis are
 #### 2.1 ECONOMICAL FEASIBILITY
                    
   This study is carried out to check the economic impact that the system will have on the organization. The amount of fund that the company can pour into the research and development of the system is limited. The expenditures must be justified. Thus the developed system as well within the budget and this was achieved because most of the technologies used are freely available. Only the customized products had to be purchased. 
+
+
+#### 2.2 TECHNICAL FEASIBILITY
+                
+This study is carried out to check the technical feasibility, that is, the technical requirements of the system. Any system developed must not have a high demand on the available technical resources. This will lead to high demands on the available technical resources. This will lead to high demands being placed on the client. The developed system must have a modest requirement, as only minimal or null changes are required for implementing this system.   
