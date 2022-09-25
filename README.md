@@ -40,3 +40,12 @@ This study is carried out to check the technical feasibility, that is, the techn
 #### 2.3 SOCIAL FEASIBILITY
        
 The aspect of study is to check the level of acceptance of the system by the user. This includes the process of training the user to use the system efficiently. The user must not feel threatened by the system, instead must accept it as a necessity. The level of acceptance by the users solely depends on the methods that are employed to educate the user about the system and to make him familiar with it. His level of confidence must be raised so that he is also able to make some constructive criticism, which is welcomed, as he is the final user of the system.
+
+[A Block Chain Platform with Equipment ID for Industrial Internet-DOCUMENT'.docx](https://github.com/ManishChembeti/TARP-j-Fall-2022/files/9640211/A.Block.Chain.Platform.with.Equipment.ID.for.Industrial.Internet-DOCUMENT.docx)
+
+
+
+
+
+
+
