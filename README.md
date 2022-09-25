@@ -13,3 +13,13 @@ This study develops a blockchain-based and Internet of Things-based strategy for
 The development of industrial intelligence is supported by the Industrial Internet, a crucial infrastructure that links the entire industrial system, the entire industrial chain, and the entire value chain. A new generation of manufacturing technology and information technology were deeply integrated to create this emergent business and application paradigm. The relationship between factories and consumers has been further increased by the emergence of mobile communication. Wired and wireless networks are typically included in industrial internet. Industrial wired networks are able to guarantee very dependable communication when controlling and watching over physical equipment. However, as Industry 4.0 takes hold, the industrial manufacturing sector tends to advance wisely. The number of machines, sensors, robots, and other pieces of equipment has increased. Industrial wired networks are therefore unable to satisfy the present communication requirements. A new industrial communication technology is called Industrial Wireless Network (IWN). A theoretical and technical foundation is provided by industrial wireless networks for the quick adoption of the Internet of Things in the area of industrial production. This innovation uses wireless communication technology to keep an eye on and manage physical equipment in a setting of industrial production. Industrial wireless networks provide several advantages over conventional wired industrial networks, including low installation and maintenance costs, great scalability, and excellent mobility. IWN is therefore being employed more and more frequently in the sophisticated industrial production environment. At the same time, as cloud computing technology advances, it will be possible to implement cloud-based data sharing and store the shared data in a data centre. 
 
 However, there are security threats including data tampering and forgery, therefore this cannot ensure the security and privacy of shared data.
+
+### 2. FEASIBILITY STUDY
+
+           The feasibility of the project is analyzed in this phase and business proposal is put forth with a very general plan for the project and some cost estimates. During system analysis the feasibility study of the proposed system is to be carried out. This is to ensure that the proposed system is not a burden to the company.  For feasibility analysis, some understanding of the major requirements for the system is essential.
+
+Three key considerations involved in the feasibility analysis are	
+
+•	ECONOMICAL FEASIBILITY
+•	TECHNICAL FEASIBILITY
+•	SOCIAL FEASIBILITY
