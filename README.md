@@ -42,11 +42,9 @@ This study is carried out to check the technical feasibility, that is, the techn
 The aspect of study is to check the level of acceptance of the system by the user. This includes the process of training the user to use the system efficiently. The user must not feel threatened by the system, instead must accept it as a necessity. The level of acceptance by the users solely depends on the methods that are employed to educate the user about the system and to make him familiar with it. His level of confidence must be raised so that he is also able to make some constructive criticism, which is welcomed, as he is the final user of the system.
 
 
-### SYSTEM ANALYSIS
+### 3. SYSTEM ANALYSIS
 
-### 4.SYSTEM ANALYSIS
-
-####4.1 EXISTING SYSTEM:
+#### 3.1 EXISTING SYSTEM:
 
 The blockchain system can be broken down into data layer, network layer, consensus layer, etc., according to the study that has already been done. To guarantee the security and privacy of data information, the data layer is utilised. Key technologies used primarily by the data layer include the encryption method, Merkle tree, chain structure, and timestamp. The network layer, which primarily consists of P2P networks, data distribution, and verification procedures, is the structural foundation of decentralised storage. The blockchain distributed network's smooth operation is made possible by the consensus layer. Commonly used consensus algorithms include the PBFT method, Kafka algorithm, Raft algorithm, PoW (Proof of Work), PoS (Proof of Stack), and DPoS (Proof of Stack Delegation).
 
