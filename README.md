@@ -8,33 +8,6 @@
 
 This study develops a blockchain-based and Internet of Things-based strategy for industrial equipment traceability. The primary data that is recorded in the internal traceability solution of the blockchain is the digital summary of the detailed traceability data and the important traceability data of industrial equipment. The detailed industrial equipment traceability information and digital summaries produced by the traceability information are mostly recorded by the traceability solution outside of the blockchain. The suggested traceability mechanism in this study guarantees the accuracy of all traceable data and prevents the issue of blockchain data explosion.
 
-TABLE OF CONTENTS
-S.NO	CONTENT	PGNO
-1	Introduction
-1.1	Software requirements
-1.2	Hardware requirements	
-2	Feasibility study
-2.1 Economic feasibility
-2.2 Technical feasibility
-2.3 Social feasibility	
-3	Literature survey	
-4	System analysis
-4.1 Existing system
-4.1.1 Disadvantages of existing system
-4.2 Proposed system
-4.2.1 Advantages of proposed system
-4.3 Functional requirements
-4.4 Non-Functional requirements	
-5	System design
-5.1 System architecture
-5.2 UML diagrams	
-6	Implementation
-6.1 Modules
-6.2 Sample code	
-7	Software environment	
-8	System testing
-8.1 Testing strategies
-8.2 Test cases	
-9	Screens	
-10	Conclusion	
-11	References	
+### 1.INTRODUCTION
+
+The development of industrial intelligence is supported by the Industrial Internet, a crucial infrastructure that links the entire industrial system, the entire industrial chain, and the entire value chain. A new generation of manufacturing technology and information technology were deeply integrated to create this emergent business and application paradigm. The relationship between factories and consumers has been further increased by the emergence of mobile communication. Wired and wireless networks are typically included in industrial internet. Industrial wired networks are able to guarantee very dependable communication when controlling and watching over physical equipment. However, as Industry 4.0 takes hold, the industrial manufacturing sector tends to advance wisely. The number of machines, sensors, robots, and other pieces of equipment has increased. Industrial wired networks are therefore unable to satisfy the present communication requirements. A new industrial communication technology is called Industrial Wireless Network (IWN). A theoretical and technical foundation is provided by industrial wireless networks for the quick adoption of the Internet of Things in the area of industrial production. This innovation uses wireless communication technology to keep an eye on and manage physical equipment in a setting of industrial production. Industrial wireless networks provide several advantages over conventional wired industrial networks, including low installation and maintenance costs, great scalability, and excellent mobility. IWN is therefore being employed more and more frequently in the sophisticated industrial production environment. At the same time, as cloud computing technology advances, it will be possible to implement cloud-based data sharing and store the shared data in a data centre. 
