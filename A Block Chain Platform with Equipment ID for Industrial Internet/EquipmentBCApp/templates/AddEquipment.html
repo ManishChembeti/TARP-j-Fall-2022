@@ -1,0 +1,115 @@
+{% load static %}
+<html>
+<head>
+<title>A Block Chain Platform with Equipment ID for Industrial Internet</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}"/>
+<script language="javascript" type="text/javascript" src="{% static 'datetimepicker.js' %}">
+</script>
+<script LANGUAGE="Javascript" >
+function validate(){
+	var code=document.forms["f1"]["t1"].value;
+	var number=document.forms["f1"]["t2"].value;
+	var pdate=document.forms["f1"]["t3"].value;
+	var name=document.forms["f1"]["t4"].value;
+	var desc=document.forms["f1"]["t5"].value;
+	var address=document.forms["f1"]["t6"].value;
+	var image=document.forms["f1"]["t7"].value;
+	
+	if(code == null || code==""){
+		window.alert("Product code must be enter");
+		document.f1.t1.focus();
+		return false;
+	}
+	if(number == null || number==""){
+		window.alert("Batch number must be enter");
+		document.f1.t2.focus();
+		return false;
+	}
+	if(pdate == null || pdate==""){
+		window.alert("Production date must be enter");
+		document.f1.t3.focus();
+		return false;
+	}
+	if(name == null || name==""){
+		window.alert("Product name must be enter");
+		document.f1.t4.focus();
+		return false;
+	}
+	if(desc == null || desc==""){
+		window.alert("Product description must be enter");
+		document.f1.t5.focus();
+		return false;
+	}
+	if(address == null || address==""){
+		window.alert("Production address must be enter");
+		document.f1.t6.focus();
+		return false;
+	}
+	if(image == null || image==""){
+		window.alert("Product image must be upload");
+		document.f1.t7.focus();
+		return false;
+	}
+	return true;
+}
+		
+	
+	</script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<center><font size="4" color="yellow">A Block Chain Platform with Equipment ID for Industrial Internet</font></center>
+		</div>
+		<div id="slogan">
+			
+		</div>
+	</div>
+	<div id="menu">
+		<ul><center>
+	  <li><a href="{% url 'AddEquipment' %}">Add Equipment Details</a></li>
+      <li><a href="{% url 'ViewEquipmentDetails' %}">View Details</a></li>
+      <li><a href="{% url 'index' %}">Logout</a></li>
+		</center></ul>
+<br class="clearfix" />
+				</div>
+			
+	<div id="splash">
+		<img class="pic" src="{% static 'images/investor.jpg' %}" width="870" height="230" alt="" />
+	</div>	
+			<center>
+<form name="f1" method="post" action={% url 'AddEquipmentAction' %}  enctype="multipart/form-data" OnSubmit="return validate()">
+	
+   <h3><b>Add New Equipment Screen</b></h3>
+   {% csrf_token %}<br/>
+					<font size="" color="black"><center>{{ data }}</center></font>		
+						<table align="center" width="80" >
+
+ <tr><td><font size="3" color="black">Product&nbsp;Code</b></td><td><input type="text" name="t1" style="font-family: Comic Sans MS" size="30"/></td></tr>
+
+ <tr><td><font size="3" color="black">Batch&nbsp;Number</b></td><td><input type="text" name="t2" style="font-family: Comic Sans MS" size="30"/></td></tr>
+
+ <tr><td><font size="3" color="black">Production&nbsp;Date</td><td><input name="t3" type="Text" id="demo1" maxlength="25" size="20" class="c2" ><a href="javascript:NewCal('demo1','ddmmmyyyy',false,24)"><img src="{% static 'cal.gif' %}" width="16" height="16" border="0" alt="Pick a date"></a>
+
+ <tr><td><font size="3" color="black">Product&nbsp;Name</b></td><td><input type="text" name="t4" style="font-family: Comic Sans MS" size="50"/></td></tr>
+
+ <tr><td><font size="3" color="black">Product&nbsp;Description</b></td><td><input type="text" name="t5" style="font-family: Comic Sans MS" size="70"/></td></tr>
+
+ <tr><td><font size="3" color="black">Production&nbsp;Address</b></td><td><input type="text" name="t6" style="font-family: Comic Sans MS" size="30"/></td></tr>
+			 
+
+<tr><td><font size="3" color="black">Upload&nbsp;Image</b></td><td><input type="file" name="t7" style="font-family: Comic Sans MS" size="60"/></td></tr>
+		
+		
+         
+			<tr><td></td><td><input type="submit" value="Submit">
+			</td>
+			</table>
+				</div>	
+					
+				</div>
+				<br/><br/><br/><br/><br/>
+	</body>
+</html>
